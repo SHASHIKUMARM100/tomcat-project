@@ -1,7 +1,7 @@
 node {
     
     stage('Checkout') {
-        git branch: 'main', credentialsId: 'github', url: 'https://github.com/Yogivishnu95/tomcat-project.git'
+        git branch: 'main', credentialsId: 'github', url: 'https://github.com/SHASHIKUMARM100/tomcat-project.git'
   }
     
     stage('Test') {
